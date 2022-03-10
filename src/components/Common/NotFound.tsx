@@ -1,7 +1,7 @@
-import * as React from "react";
+import { Link } from "@mui/material";
 
 export interface NotFoundProps {}
 
 export function NotFound(props: NotFoundProps) {
-  return <div>NOT FOUND</div>;
+  return <Link href="http://localhost:3000/admin">Page Not Found</Link>;
 }

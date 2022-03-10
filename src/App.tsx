@@ -12,6 +12,7 @@ function App() {
       <Route path="/login" element={<LoginPage />} />
       <Route
         path="/admin"
+        
         element={
           <RequireAuth redirectTo="/login">
             <AdminLayout />
